@@ -1,5 +1,17 @@
 @charset "utf-8";
+#ccw{
+    background-color:rebeccapurple;
+    font-weight:bold;
+    font color: white;
+}
 
+#null{
+    border: 0px;
+    width: 100%;
+    height: 2em;
+    text-align:left;
+    display:inline;
+}
 body {
   font-family: 'Open Sans', sans-serif;
   overflow-x: hidden;
