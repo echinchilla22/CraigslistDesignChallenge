@@ -1,0 +1,326 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<title>Craigslist</title>
+<!--Bootstrap -->
+<link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
+<!--Custome Style -->
+<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+<!--OWL Carousel slider-->
+<link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css">
+<!--FontAwesome Font Style -->
+<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+   <!-- SWITCHER -->
+    <link rel="stylesheet" id="switcher-css" type="text/css" href="assets/switcher/css/switcher.css" media="all" />
+    <link rel="alternate stylesheet" type="text/css" href="assets/switcher/css/blue.css" title="blue" media="all" data-default-color="true" />
+    <link rel="alternate stylesheet" type="text/css" href="assets/switcher/css/pink.css" title="pink" media="all" />
+    <link rel="alternate stylesheet" type="text/css" href="assets/switcher/css/orange.css" title="orange" media="all" />
+    <link rel="alternate stylesheet" type="text/css" href="assets/switcher/css/green.css" title="green" media="all" />
+    <link rel="alternate stylesheet" type="text/css" href="assets/switcher/css/red.css" title="red" media="all" />
+    <link rel="alternate stylesheet" type="text/css" href="assets/switcher/css/purple.css" title="purple" media="all" />
+    
+<!-- Fav and touch icons -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/favicon-icon/apple-touch-icon-144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/favicon-icon/apple-touch-icon-72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="assets/images/favicon-icon/apple-touch-icon-57-precomposed.png">
+<link rel="shortcut icon" href="assets/images/favicon-icon/favicon.png">
+<!-- Google-Font-->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,800" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet"> 
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->  
+</head>
+<body class="listing-with-map-page">
+    
+<!-- Header -->
+<header id="header">
+    <nav class="navbar navbar-default navbar-fixed-top" data-spy="affix" data-offset-top="10">
+        <div class="container">
+          <div class="navbar-header">
+            <div class="logo"> <a href="index.html"><img src="assets/images/logo2.png" alt="image" style="max-height:88px"/></a> </div>
+            <button id="menu_slide" data-target="#navigation" aria-expanded="false" data-toggle="collapse" class="navbar-toggle collapsed" type="button"> 
+                <span class="sr-only">Toggle navigation</span> 
+                <span class="icon-bar"></span> 
+                <span class="icon-bar"></span> 
+                <span class="icon-bar"></span> 
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="navigation">
+            <ul class="nav navbar-nav">
+              <li class="menu-item-has-children"><a href="#">My Account</a> <span class="arrow"></span>
+              <ul class="sub-menu">
+                    <li><a href="#">Create an Account</a></li>
+                    <li><a href="#">Account Help</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Sign In</a></li>
+            </ul>
+            <div class="submit_listing">
+	            <a href="secondary.html" class="btn outline-btn"><i class="fa  fa-plus-circle"></i> Post to Classifieds</a>
+            </div>
+          </div>
+        </div>
+    </nav>
+</header>
+<!-- /Header -->
+
+<!-- Listings -->
+<section id="ElemoListing_with_map">
+	<div class="ElemoListing_map">
+    	<div id="map-container">
+		    <div id="map">
+		    </div>
+		</div>
+    </div>
+	<div class="search_wrap">
+    	<div class="search_form">
+            <form action="" method="get">
+                <div class="form-group">
+                    <div class="select">
+                        <select class="form-control">
+                	    	<option>What are you looking for?</option>
+            	            <option>Community</option>
+                            <option>Housing</option>
+                            <option>Jobs</option>
+        	                <option>Services</option>
+    	                    <option>For Sale</option>
+                            <option>Discussion Forums</option>
+                            <option>Personals</option>
+                            <option>Gigs</option>
+                            <option>Resumes</option>
+	                    </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Location">
+                </div>
+                <div class="btn_group">
+                    <input type="submit" value="Search" class="btn btn-block">
+                </div>
+            </form>
+        </div>
+    </div>
+    
+	<div class="container">
+    	<div class="listing_header">
+        	<h5>Post Grid Layout</h5>
+            
+            <div class="layout-switcher">
+                <a href="#" class="active"><i class="fa fa-th"></i></a>
+                <a href="listing-listview-map.html"><i class="fa fa-align-justify"></i></a>
+            </div>
+        </div>
+        
+        <div class="row">
+	        <div class="col-md-6 grid_col show_listing">
+            	<div class="items-list listing_wrap" data-post-id="1">
+                    <div class="listing_img">
+                        <span class="like_post"><i class="fa fa-bookmark-o"></i></span>
+                        <div class="listing_cate">
+                            <span class="cate_icon"><a href="#"><img src="assets/images/category-icon5.png" alt="icon-img"></a></span> 
+                            <span class="listing_like"><a href="#"><i class="fa fa-heart-o"></i></a></span>
+                        </div>
+                        <a href="#"><img src="assets/images/listing_img6.jpg" alt="image"></a>
+                    </div>
+                    <div class="listing_info">
+                        <div class="post_category">
+                            <a href="#">Housing</a>
+                        </div>
+                        <h4><a href="#">Vacation Home</a></h4>
+                        <p>Renting this beautiful home for the summer.</p>
+                        
+                        <div class="listing_review_info">
+                            <p><span class="review_score">4.0/5</span> 
+                               <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> 
+                               <i class="fa fa-star active"></i> <i class="fa fa-star"></i> 
+                               (5 Reviews) </p>
+                            <p class="listing_map_m"><i class="fa fa-map-marker"></i> Los Angeles</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 grid_col show_listing">
+            	<div class="items-list listing_wrap" data-post-id="2">
+                    <div class="listing_img">
+                        <span class="like_post"><i class="fa fa-bookmark-o"></i></span>
+                        <div class="listing_cate">
+                            <span class="cate_icon"><a href="#"><img src="assets/images/category-icon4.png" alt="icon-img"></a></span> 
+                            <span class="listing_like"><a href="#"><i class="fa fa-heart-o"></i></a></span>
+                        </div>
+                        <a href="#"><img src="assets/images/listing_img4.jpg" alt="image"></a>
+                    </div>
+                    <div class="listing_info">
+                        <div class="post_category">
+                            <a href="#">Community</a>
+                        </div>
+                        <h4><a href="#">Laisa Spa Center</a></h4>
+                        <p>Best Pool & Spa Professionals in Laisa</p>
+                        
+                        <div class="listing_review_info">
+                            <p><span class="review_score">4.0/5</span> 
+                               <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> 
+                               <i class="fa fa-star active"></i> <i class="fa fa-star"></i> 
+                               (5 Reviews) </p>
+                            <p class="listing_map_m"><i class="fa fa-map-marker"></i> Los Angeles</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 grid_col show_listing">
+            	<div class="items-list listing_wrap" data-post-id="3">
+                    <div class="listing_img">
+                        <span class="like_post"><i class="fa fa-bookmark-o"></i></span>
+                        <div class="listing_cate">
+                            <span class="cate_icon"><a href="#"><img src="assets/images/category-icon4.png" alt="icon-img"></a></span> 
+                            <span class="listing_like"><a href="#"><i class="fa fa-heart-o"></i></a></span>
+                        </div>
+                        <a href="#"><img src="assets/images/listing_img3.jpg" alt="image"></a>
+                    </div>
+                    <div class="listing_info">
+                        <div class="post_category">
+                            <a href="#">Community</a>
+                        </div>
+                        <h4><a href="#">Blue Women's Parlour</a></h4>
+                        <p>5-star Womens Beauty Parlour Services.</p>
+                        
+                        <div class="listing_review_info">
+                            <p><span class="review_score">4.0/5</span> 
+                               <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> 
+                               <i class="fa fa-star active"></i> <i class="fa fa-star"></i> 
+                               (5 Reviews) </p>
+                            <p class="listing_map_m"><i class="fa fa-map-marker"></i> Los Angeles</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 grid_col show_listing">
+            	<div class="items-list listing_wrap" data-post-id="4">
+                    <div class="listing_img">
+                        <span class="like_post"><i class="fa fa-bookmark-o"></i></span>
+                        <div class="listing_cate">
+                            <span class="cate_icon"><a href="#"><img src="assets/images/category-icon6.png" alt="icon-img"></a></span> 
+                            <span class="listing_like"><a href="#"><i class="fa fa-heart-o"></i></a></span>
+                        </div>
+                        <a href="#"><img src="assets/images/listing_img5.jpg" alt="image"></a>
+                    </div>
+                    <div class="listing_info">
+                        <div class="post_category">
+                            <a href="#">Services</a>
+                        </div>
+                        <h4><a href="#">Auto Repair Shop</a></h4>
+                        <p>Texaco Auto Servicing & Repair shop</p>
+                        
+                        <div class="listing_review_info">
+                            <p><span class="review_score">4.0/5</span> 
+                               <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> 
+                               <i class="fa fa-star active"></i> <i class="fa fa-star"></i> 
+                               (5 Reviews) </p>
+                            <p class="listing_map_m"><i class="fa fa-map-marker"></i> Los Angeles</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 grid_col show_listing">
+            	<div class="items-list listing_wrap" data-post-id="5">
+                    <div class="listing_img">
+                        <span class="like_post"><i class="fa fa-bookmark-o"></i></span>
+                        <div class="listing_cate">
+                            <span class="cate_icon"><a href="#"><img src="assets/images/category-icon2.png" alt="icon-img"></a></span> 
+                            <span class="listing_like"><a href="#"><i class="fa fa-heart-o"></i></a></span>
+                        </div>
+                        <a href="#"><img src="assets/images/listing_img2.jpg" alt="image"></a>
+                    </div>
+                    <div class="listing_info">
+                        <div class="post_category">
+                            <a href="#">Community</a>
+                        </div>
+                        <h4><a href="#">Eating Restaurant</a></h4>
+                        <p>Yummy food at new restaurant</p>
+                        
+                        <div class="listing_review_info">
+                            <p><span class="review_score">4.0/5</span> 
+                               <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> 
+                               <i class="fa fa-star active"></i> <i class="fa fa-star"></i> 
+                               (5 Reviews) </p>
+                            <p class="listing_map_m"><i class="fa fa-map-marker"></i> Los Angeles</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 grid_col show_listing">
+            	<div class="items-list listing_wrap" data-post-id="6">
+                    <div class="listing_img">
+                        <span class="like_post"><i class="fa fa-bookmark-o"></i></span>
+                        <div class="listing_cate">
+                            <span class="cate_icon"><a href="#"><img src="assets/images/category-icon1.png" alt="icon-img"></a></span> 
+                            <span class="listing_like"><a href="#"><i class="fa fa-heart-o"></i></a></span>
+                        </div>
+                        <a href="#"><img src="assets/images/listing_img8.jpg" alt="image"></a>
+                    </div>
+                    <div class="listing_info">
+                        <div class="post_category">
+                            <a href="#">Housing</a>
+                        </div>
+                        <h4><a href="#">The Shelby Apartment</a></h4>
+                        <p>Deluxe Rooms with AC</p>
+                        
+                        <div class="listing_review_info">
+                            <p><span class="review_score">4.0/5</span> 
+                               <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> <i class="fa fa-star active"></i> 
+                               <i class="fa fa-star active"></i> <i class="fa fa-star"></i> 
+                               (5 Reviews) </p>
+                            <p class="listing_map_m"><i class="fa fa-map-marker"></i> Los Angeles</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="pagination_nav">
+          <ul class="pagination">
+            <li class="disabled"><a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">2 </a></li>
+            <li><a href="#">3 </a></li>
+            <li><a href="#">4 </a></li>
+            <li><a href="#">5 </a></li>
+            <li><a href="#" aria-label="Next"><span aria-hidden="true">&raquo;</span></a></li>
+          </ul>
+        </nav>
+    </div>
+</section>
+<!-- /Listings -->
+
+<!-- Footer -->
+<footer id="footer" class="secondary-bg">
+    <div class="footer_bottom">
+    	<div class="container">
+        	<p>Copyright &copy; 2017 Craigslist Private Limited. All Rights Reserved</p>
+        </div>
+    </div>
+</footer>
+<!-- /Footer -->
+
+
+<!-- Scripts --> 
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script> 
+<!--Carousel-JS--> 
+<script src="assets/js/owl.carousel.min.js"></script>
+<!--Map-JS--> 
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script>
+<script src="assets/js/infobox.js"></script>
+<script src="assets/js/maps.js"></script>
+<script src="assets/js/interface.js"></script> 
+ <!--Switcher-->
+<script src="assets/switcher/js/switcher.js"></script>
+</body>
+</html>

@@ -1,8 +1,9 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 #ccw{
-    background-color:rebeccapurple;
+    background-color:#03aee9;
     font-weight:bold;
     font color: white;
+    width: 300px;
 }
 
 #null{
@@ -170,7 +171,7 @@ img {
 }
 
 .btn-link {
-  color: #38ccff
+  color: #38ccff;
 }
 
 .btn:hover, .btn:focus {
@@ -309,7 +310,7 @@ textarea.form-control {
 
 .select::after {
   color: #878787;
-  content: "";
+  content: url(../images/icons/l.png);
   cursor: pointer;
   font-family: fontawesome;
   font-size: 15px;
@@ -317,7 +318,7 @@ textarea.form-control {
   pointer-events: none;
   position: absolute;
   right: 15px;
-  top: 0
+  top:-10px
 }
 
 .form-control option {
@@ -563,7 +564,7 @@ table thead th, table thead td {
 
 .owl-theme.owl-carousel .owl-item img {
   max-width: 100%;
-  width: auto
+  width: auto;
 }
 
 .owl-dots {
@@ -626,15 +627,16 @@ table thead th, table thead td {
   -ms-transform: translateY(-50%)
 }
 
-.owl-nav .owl-prev:after {
-  content: "\f104"
-}
+    .owl-nav .owl-prev:after {
+            top: 20px;
+        content: url(../images/icons/arLeft.png);
+    }
 
-.owl-nav .owl-next:after {
-  content: "\f105";
-  left: inherit;
-  right: -40px
-}
+    .owl-nav .owl-next:after {
+        content: url(../images/icons/arRight.png);
+        left: inherit;
+        top: 20px;
+    }
 
 .owl-nav .owl-next {
   float: right
@@ -650,7 +652,7 @@ table thead th, table thead td {
 }
 
 .logo {
-  margin: 22px 0;
+  margin: 10px 0;
   transition-duration: .3s;
   -moz-transition-duration: .3s;
   -o-transition-duration: .3s;
@@ -659,7 +661,8 @@ table thead th, table thead td {
 }
 
 .affix .logo {
-  margin: 17px 0
+  margin: 5px 0;
+  width: 85%;
 }
 
 .affix .submit_listing {
@@ -756,7 +759,6 @@ header .navbar-default .navbar-nav li.active a, header .navbar-default .navbar-n
 }
 
 header .navbar-default .navbar-nav li.menu-item-has-children>a::before {
-  content: "\f107";
   font-family: "FontAwesome";
   font-size: 16px;
   position: absolute;
@@ -1433,13 +1435,13 @@ header .navbar-default .navbar-nav li ul.sub-menu ul.sub-menu, header .navbar-de
   position: relative
 }
 
-.footer_nav ul li a:after {
-  position: absolute;
-  top: 0;
-  left: 0;
-  content: "\f105";
-  font-family: fontawesome
-}
+    .footer_nav ul li a:after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: "•";
+        font-family: fontawesome
+    }
 
 .footer_nav ul li a:hover {
   color: #38ccff
