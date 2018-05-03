@@ -4,8 +4,6 @@
     font-weight:bold;
     font color: white;
     width: 300px;
-    float: right;
-
 }
 
 #null{
@@ -566,7 +564,7 @@ table thead th, table thead td {
 
 .owl-theme.owl-carousel .owl-item img {
   max-width: 100%;
-  width: auto
+  width: auto;
 }
 
 .owl-dots {
