@@ -1,11 +1,26 @@
 ﻿@charset "utf-8";
+
+
+
+#testimonial_slider .item2 {
+    background:white;
+    padding: 35px;
+  margin: 0 auto;
+  max-width: 530px;
+  border-radius: 3px
+}
+#form{
+    font color:black;
+}
 #ccw{
     background-color:#03aee9;
     font-weight:bold;
     font color: white;
     width: 300px;
+    position:absolute;
+    top:700px;
+    right:325px;
 }
-
 #null{
     border: 0px;
     width: 100%;
