@@ -660,7 +660,8 @@ table thead th, table thead td {
 }
 
 .affix .logo {
-  margin: 17px 0
+  margin: 5px 0;
+  width: 85%;
 }
 
 .affix .submit_listing {
