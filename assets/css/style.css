@@ -651,7 +651,7 @@ table thead th, table thead td {
 }
 
 .logo {
-  margin: 22px 0;
+  margin: 10px 0;
   transition-duration: .3s;
   -moz-transition-duration: .3s;
   -o-transition-duration: .3s;
@@ -660,7 +660,8 @@ table thead th, table thead td {
 }
 
 .affix .logo {
-  margin: 17px 0
+  margin: 5px 0;
+  width: 85%;
 }
 
 .affix .submit_listing {
