@@ -1,6 +1,6 @@
 ﻿@charset "utf-8";
 #ccw{
-    background-color:rebeccapurple;
+    background-color:#03aee9;
     font-weight:bold;
     font color: white;
 }
@@ -170,7 +170,7 @@ img {
 }
 
 .btn-link {
-  color: #38ccff
+  color: #38ccff;
 }
 
 .btn:hover, .btn:focus {
